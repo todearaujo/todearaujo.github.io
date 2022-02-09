@@ -1,6 +1,6 @@
 body{
-    background-color: #CCCCCC;
-    color: black;
+    background-color: #FFFFFF;
+    color: #FFFFFF;
     font-family: Arial;
   }
 
@@ -12,12 +12,13 @@ body{
   .corpo {
     max-width: 600px;
     margin: auto;
-    padding: 10px;
+    padding: 20px;
     position: relative;
+    box-shadow: 5px 5px 15px #cccccc;
+    background-color: #000000;
   }
 
   .titulo{
-    background-color: #EEEEEE;
     padding: 20px;
     font-size: 14px;
     text-align: left;
@@ -35,6 +36,7 @@ body{
     background-color: #ffffff;
     padding: 20px;
     position: relative;
+    color: #000000;
   }
 
   .descricao {
