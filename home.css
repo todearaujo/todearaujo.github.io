@@ -1,75 +1,81 @@
+:root {
+  --theme-color: #009900;
+  --text-color: #000;
+  --main-max: 37.5em;
+}
+
 body{
-    background-color: #FFFFFF;
-    color: #FFFFFF;
-    font-family: Arial;
-  }
+  background-color: #FFFFFF;
+  color: #FFFFFF;
+  font-family: Arial;
+}
 
-  a {
-    color: #009900;
-    text-decoration: none;
-  }
 
-  .corpo {
-    max-width: 600px;
-    margin: auto;
-    padding: 20px;
-    position: relative;
-    box-shadow: 5px 5px 15px #cccccc;
-    background-color: #000000;
-  }
+a {
+  color: var(--theme-color);
+  text-decoration: none;
+}
 
-  .titulo{
-    padding: 20px;
-    font-size: 14px;
-    text-align: left;
-  }
-   
-  h1 {
-    font-size: 22px;
-    font-weight: bold;
-    text-transform: uppercase;
-    margin-bottom: 10px;
-  }
+main {
+  width: 90%;
+  max-width: var(--main-max);
+  margin: auto;
+  padding: 1.25em;
+  position: relative;
+  box-shadow: 0.3em 0.3em 1em #cccccc;
+  background-color: #000000;
+}
 
-  .conteudo{
-    display: flex;
-    background-color: #ffffff;
-    padding: 20px;
-    position: relative;
-    color: #000000;
-  }
+header{
+  text-align: left;
+}
+  
+h1 {
+  font-size: 1.4em;
+  font-weight: bold;
+  text-transform: uppercase;
+  line-height: 1.5em;
+}
 
-  .descricao {
-    font-size: 16px;
-    line-height: 22px;
-    margin: 10px 0 20px;
-  }
+h4 {
+  text-align: right;
+}
 
-  .menu {
-    display: flex;
-    flex-flow: row nowrap;
-  }
+article{
+  display: flex;
+  background-color: #ffffff;
+  position: relative;
+  color: #000000;
+}
 
-  .botao {
-    padding: 10px;
-    margin-right: 10px;
-    height: 20px;
-    background-color: #EEEEEE;
-    font-weight: bold;
-  }
+.descricao {
+  font-size: 1.1em;
+  line-height: 1.5em;
+  margin: 0.7em 0 1.4em;
+}
 
-  .botao:hover {
-    padding: 10px;
-    margin-right: 10px;
-    height: 20px;
-    background-color: #00CC0010;
-    font-weight: bold;
-  }
+.menu {
+  display: flex;
+  flex-flow: row nowrap;
+}
 
-  .inativo {
-    color: #00CC0020;
-  }
+.botao {
+  padding: 0.6em;
+  margin-right: 0.6em;
+  height: 1.2em;
+  background-color: #EEEEEE;
+  font-weight: bold;
+}
 
-  .inativo:hover {
-    background-color: #EEEEEE;
-  }
+.botao:hover {
+  padding: 0.6em;
+  margin-right: 0.6em;
+  height: 1.2em;
+  background-color: #00CC0010;
+  font-weight: bold;
+}
+
+.repo {
+  border: var(--theme-color) 0.2em solid;
+  padding: 1.25em;
+}
