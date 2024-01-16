@@ -1,0 +1,81 @@
+:root {
+  --theme-color: #009900;
+  --text-color: #000;
+  --main-max: 37.5em;
+}
+
+body{
+  background-color: #FFFFFF;
+  color: #FFFFFF;
+  font-family: Arial;
+}
+
+
+a {
+  color: var(--theme-color);
+  text-decoration: none;
+}
+
+main {
+  width: 90%;
+  max-width: var(--main-max);
+  margin: auto;
+  padding: 1.25em;
+  position: relative;
+  box-shadow: 0.3em 0.3em 1em #cccccc;
+  background-color: #000000;
+}
+
+header{
+  text-align: left;
+}
+  
+h1 {
+  font-size: 1.4em;
+  font-weight: bold;
+  text-transform: uppercase;
+  line-height: 1.5em;
+}
+
+h4 {
+  text-align: right;
+}
+
+article{
+  display: flex;
+  background-color: #ffffff;
+  position: relative;
+  color: #000000;
+}
+
+.descricao {
+  font-size: 1.1em;
+  line-height: 1.5em;
+  margin: 0.7em 0 1.4em;
+}
+
+.menu {
+  display: flex;
+  flex-flow: row nowrap;
+}
+
+.botao {
+  padding: 0.6em;
+  margin-right: 0.6em;
+  height: 1.2em;
+  background-color: #EEEEEE;
+  font-weight: bold;
+}
+
+.botao:hover {
+  padding: 0.6em;
+  margin-right: 0.6em;
+  height: 1.2em;
+  background-color: #00CC0010;
+  font-weight: bold;
+}
+
+.repo {
+  border: var(--theme-color) 0.2em solid;
+  padding: 1.25em;
+}
